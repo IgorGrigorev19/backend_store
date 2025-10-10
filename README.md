@@ -35,6 +35,20 @@ docker compose up --build
 
 curl http://localhost:3000/health
 
+Проверить контейнеры:
+
+docker ps
+
+
+Остановить проект:
+
+docker compose down
+
+
+Удалить контейнеры и тома:
+
+docker compose down -v
+
 
 Ожидаемый ответ:
 
